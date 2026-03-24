@@ -15,7 +15,7 @@ This simulates real-world scraping workflows used in data engineering and automa
 
 ---
 
-## ⚙️ Tech Stack
+## Tech Stack
 
 * Python 3.9+
 * Playwright (browser automation for JS-heavy sites)
@@ -24,13 +24,13 @@ This simulates real-world scraping workflows used in data engineering and automa
 
 ---
 
-## 🧩 Architecture
+## Architecture
 
 Scraper → Raw Data → Parser → Validator → Clean Output
 
 ---
 
-## ✨ Features
+## Features
 
 * Handles JavaScript-rendered content
 * Extracts structured data from dynamic DOM elements
@@ -40,7 +40,7 @@ Scraper → Raw Data → Parser → Validator → Clean Output
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 scraper/
@@ -57,7 +57,7 @@ main.py               # Pipeline orchestrator
 
 ---
 
-## 🚀 Installation
+## Installation
 
 ```bash
 git clone https://github.com/toluowo/dynamic-web-scraper.git
@@ -69,7 +69,7 @@ playwright install
 
 ---
 
-## ▶️ Run the Pipeline
+## Run the Pipeline
 
 ```bash
 python main.py
@@ -77,14 +77,14 @@ python main.py
 
 ---
 
-## 📊 Output
+## Output
 
 * Raw scraped data → `data/raw.json`
 * Clean validated dataset → `data/cleaned.csv`
 
 ---
 
-## 🧪 Validation Logic
+## Validation Logic
 
 * Ensures non-empty titles
 * Enforces positive numeric pricing
@@ -92,11 +92,13 @@ python main.py
 
 ---
 
-## 📸 Sample Output
+## Sample Output
 
 ### Terminal Execution
 
 ![Run](screenshots/terminal-run.png)
+
+![Run](screenshots/terminal-run-2.png)
 
 ### Clean Dataset Preview
 
@@ -114,7 +116,7 @@ python main.py
 
 ---
 
-## 💡 Why This Matters
+## Why This Matters
 
 With this project, you demonstrate the ability to:
 
@@ -127,5 +129,6 @@ With this project, you demonstrate the ability to:
 
 ## 👤 Author
 
-Tolu Owolabi
+**Tolu Owolabi**
+
 Data & Security Analyst | Automation & Data Engineering
