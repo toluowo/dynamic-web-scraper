@@ -96,9 +96,9 @@ python main.py
 
 ### Terminal Execution
 
-![Run](screenshots/terminal-run.png)
-
 ![Run](screenshots/terminal-run-2.png)
+
+![Run](screenshots/terminal-run.png)
 
 ### Clean Dataset Preview
 
