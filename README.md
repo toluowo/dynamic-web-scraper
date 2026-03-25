@@ -52,6 +52,9 @@ data/
   ├── raw.json
   ├── cleaned.csv
 
+utils/
+  ├── logger.py
+
 main.py               # Pipeline orchestrator
 ```
 
